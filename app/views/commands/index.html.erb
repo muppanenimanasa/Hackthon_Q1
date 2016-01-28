@@ -3,32 +3,37 @@
 
 <h2><ul >
   <li style="padding-bottom: 30px"> <span class="label label-default">Sidekiq</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <%= link_to "START","",:class => 'btn btn btn-primary outline btns' %>&nbsp;
-    <%= link_to "STOP","",:class => 'btn btn btn-primary outline btns' %>&nbsp;
-    <%= link_to "RESTART","",:class => 'btn btn btn-primary outline btns' %>&nbsp;
+    <%= link_to "STATUS","/commands/sidekiq_status",:class => 'btn btn btn-primary outline btns' %>&nbsp;
+    <%= link_to "START","/commands/start_sidekiq",:class => 'btn btn btn-primary outline btns' %>&nbsp;
+    <%= link_to "STOP","/commands/stop_sidekiq",:class => 'btn btn btn-primary outline btns' %>&nbsp;
+    <%= link_to "RESTART","/commands/restart_sidekiq",:class => 'btn btn btn-primary outline btns' %>&nbsp;
   </li>
   <li style="padding-bottom: 30px"><span class="label label-primary"> Solr</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <%= link_to "STATUS","",:class => 'btn btn btn-primary outline btns' %>&nbsp;
     <%= link_to "START","",:class => 'btn btn btn-primary outline btns' %>&nbsp;
     <%= link_to "STOP","",:class => 'btn btn btn-primary outline btns' %>&nbsp;
     <%= link_to "RESTART","",:class => 'btn btn btn-primary outline btns' %>&nbsp;
   </li>
   <li style="padding-bottom: 30px"><span class="label label-success">Redis</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <%= link_to "STATUS","",:class => 'btn btn btn-primary outline btns' %>&nbsp;
     <%= link_to "START","",:class => 'btn btn btn-primary outline btns' %>&nbsp;
     <%= link_to "STOP","",:class => 'btn btn btn-primary outline btns' %>&nbsp;
     <%= link_to "RESTART","",:class => 'btn btn btn-primary outline btns' %>&nbsp;
   </li>
   <li style="padding-bottom: 30px"><span class="label label-info">Nginx</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <%= link_to "START","",:class => 'btn btn btn-primary outline btns' %>&nbsp;
-    <%= link_to "STOP","",:class => 'btn btn btn-primary outline btns' %>&nbsp;
+    <%= link_to "STATUS","/commands/nginx_status",:class => 'btn btn btn-primary outline btns' %>&nbsp;
+    <%= link_to "START","/commands/start_nginx",:class => 'btn btn btn-primary outline btns' %>&nbsp;
+    <%= link_to "STOP","/commands/stop_nginx",:class => 'btn btn btn-primary outline btns' %>&nbsp;
+    <%= link_to "RESTART","/commands/restart_nginx",:class => 'btn btn btn-primary outline btns' %>&nbsp;
+  </li>
+  <li style="padding-bottom: 30px"><span class="label label-warning">Passenger</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+    <%= link_to "STATUS","",:class => 'btn btn btn-primary outline btns' %>&nbsp;
     <%= link_to "RESTART","",:class => 'btn btn btn-primary outline btns' %>&nbsp;
   </li>
-  <li style="padding-bottom: 30px"><span class="label label-warning">Passenger</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-    <%= link_to "RESTART","",:class => 'btn btn btn-primary outline btns' %>&nbsp;
-  </li>
-  <li style="padding-bottom: 30px"><span class="label label-danger">CPU/RAM utilization</span>&nbsp;&nbsp;&nbsp;&nbsp;
+  <li style="padding-bottom: 30px"><span class="label label-danger">CPU/RAM utilization</span>&nbsp;&nbsp;&nbsp;
     <%= link_to "CHECK","",:class => 'btn btn btn-primary outline btns' %>&nbsp;
   </li>
-  <li style="padding-bottom: 30px"><span class="label label-default">Free Memory</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <li style="padding-bottom: 30px"><span class="label label-default">Free Memory</span>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
     <%= link_to "CHECK","",:class => 'btn btn btn-primary outline btns' %>
   </li>
 </ul></h2>

@@ -1,9 +1,17 @@
 Rails.application.routes.draw do
- # get 'commands/index'
+  # get 'commands/index'
 
- # get 'commands/show'
+  # get 'commands/show'
 
-root :to => "commands#index"
+  root :to => "commands#index"
+  get "commands/sidekiq_status"
+  get "commands/stop_sidekiq"
+  get "commands/start_sidekiq"
+  get "commands/restart_sidekiq"
+  get "commands/nginx_status"
+  get "commands/stop_nginx"
+  get "commands/start_nginx"
+  get "commands/restart_nginx"
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
