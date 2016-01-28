@@ -6,14 +6,38 @@
     <ignored path=".idea/workspace.xml" />
     <file path="$USER_HOME$/Downloads/ruby_crawler/lib/tasks/sidekiq.rake" changelist="5ffcb860-5c3b-42c9-8ee0-d001c63ab27d" time="1453872010121" ignored="false" />
     <file path="/sidekiq.rake" changelist="5ffcb860-5c3b-42c9-8ee0-d001c63ab27d" time="1453872010121" ignored="false" />
-    <file path="/routes.rb" changelist="5ffcb860-5c3b-42c9-8ee0-d001c63ab27d" time="1453963012410" ignored="false" />
-    <file path="/commands_controller.rb" changelist="5ffcb860-5c3b-42c9-8ee0-d001c63ab27d" time="1453963134240" ignored="false" />
-    <file path="/*.regexp" changelist="5ffcb860-5c3b-42c9-8ee0-d001c63ab27d" time="1453872546518" ignored="false" />
+    <file path="/routes.rb" changelist="5ffcb860-5c3b-42c9-8ee0-d001c63ab27d" time="1453994384268" ignored="false" />
+    <file path="/commands_controller.rb" changelist="5ffcb860-5c3b-42c9-8ee0-d001c63ab27d" time="1453994058026" ignored="false" />
+    <file path="/*.regexp" changelist="5ffcb860-5c3b-42c9-8ee0-d001c63ab27d" time="1453984722699" ignored="false" />
     <file path="/application.css" changelist="5ffcb860-5c3b-42c9-8ee0-d001c63ab27d" time="1453878379928" ignored="false" />
-    <file path="/index.html.erb" changelist="5ffcb860-5c3b-42c9-8ee0-d001c63ab27d" time="1453962589313" ignored="false" />
+    <file path="/index.html.erb" changelist="5ffcb860-5c3b-42c9-8ee0-d001c63ab27d" time="1453986451483" ignored="false" />
     <file path="$USER_HOME$/Downloads/ruby_crawler/config/initializers/task_scheduler.rb" changelist="5ffcb860-5c3b-42c9-8ee0-d001c63ab27d" time="1453883623428" ignored="false" />
     <file path="/Dummy.txt" changelist="5ffcb860-5c3b-42c9-8ee0-d001c63ab27d" time="1453958423358" ignored="false" />
     <file path="$USER_HOME$/Downloads/ruby_crawler/config/deploy.rb" changelist="5ffcb860-5c3b-42c9-8ee0-d001c63ab27d" time="1453959169192" ignored="false" />
+    <file path="$USER_HOME$/Downloads/ruby_crawler/app/controllers/sites_controller.rb" changelist="5ffcb860-5c3b-42c9-8ee0-d001c63ab27d" time="1453971640146" ignored="false" />
+    <file path="/sites_controller.rb" changelist="5ffcb860-5c3b-42c9-8ee0-d001c63ab27d" time="1453969802299" ignored="false" />
+    <file path="/sidekiq.rb" changelist="5ffcb860-5c3b-42c9-8ee0-d001c63ab27d" time="1453970674254" ignored="false" />
+    <file path="/Gemfile" changelist="5ffcb860-5c3b-42c9-8ee0-d001c63ab27d" time="1453983315712" ignored="false" />
+    <file path="$USER_HOME$/Downloads/ruby_crawler/Gemfile" changelist="5ffcb860-5c3b-42c9-8ee0-d001c63ab27d" time="1453991969926" ignored="false" />
+    <file path="$USER_HOME$/Downloads/ruby_crawler/log/sunspot-solr-development.log" changelist="5ffcb860-5c3b-42c9-8ee0-d001c63ab27d" time="1453983360030" ignored="false" />
+    <file path="$USER_HOME$/Downloads/SeedFinder/log/cron_error.log" changelist="5ffcb860-5c3b-42c9-8ee0-d001c63ab27d" time="1453984720502" ignored="false" />
+    <file path="/sidekiq_status.html.erb" changelist="5ffcb860-5c3b-42c9-8ee0-d001c63ab27d" time="1453995679867" ignored="false" />
+    <file path="/start_redis.html.erb" changelist="5ffcb860-5c3b-42c9-8ee0-d001c63ab27d" time="1453996521467" ignored="false" />
+    <file path="/cpu_util_show.html.erb" changelist="5ffcb860-5c3b-42c9-8ee0-d001c63ab27d" time="1453996783828" ignored="false" />
+    <file path="/start_solr.html.erb" changelist="5ffcb860-5c3b-42c9-8ee0-d001c63ab27d" time="1453996385547" ignored="false" />
+    <file path="/stop_solr.html.erb" changelist="5ffcb860-5c3b-42c9-8ee0-d001c63ab27d" time="1453996097290" ignored="false" />
+    <file path="/redis_status.html.erb" changelist="5ffcb860-5c3b-42c9-8ee0-d001c63ab27d" time="1453996494274" ignored="false" />
+    <file path="/stop_nginx.html.erb" changelist="5ffcb860-5c3b-42c9-8ee0-d001c63ab27d" time="1453996304539" ignored="false" />
+    <file path="/start_nginx.html.erb" changelist="5ffcb860-5c3b-42c9-8ee0-d001c63ab27d" time="1453996331463" ignored="false" />
+    <file path="/nginx_status.html.erb" changelist="5ffcb860-5c3b-42c9-8ee0-d001c63ab27d" time="1453996247023" ignored="false" />
+    <file path="/pass_restart.html.erb" changelist="5ffcb860-5c3b-42c9-8ee0-d001c63ab27d" time="1453996647112" ignored="false" />
+    <file path="/stop_sidekiq.html.erb" changelist="5ffcb860-5c3b-42c9-8ee0-d001c63ab27d" time="1453996206779" ignored="false" />
+    <file path="/start_sidekiq.html.erb" changelist="5ffcb860-5c3b-42c9-8ee0-d001c63ab27d" time="1453996066695" ignored="false" />
+    <file path="/restart_nginx.html.erb" changelist="5ffcb860-5c3b-42c9-8ee0-d001c63ab27d" time="1453996339867" ignored="false" />
+    <file path="/restart_solr.html.erb" changelist="5ffcb860-5c3b-42c9-8ee0-d001c63ab27d" time="1453996430731" ignored="false" />
+    <file path="/solr_status.html.erb" changelist="5ffcb860-5c3b-42c9-8ee0-d001c63ab27d" time="1453996455308" ignored="false" />
+    <file path="/stop_redis.html.erb" changelist="5ffcb860-5c3b-42c9-8ee0-d001c63ab27d" time="1453996541277" ignored="false" />
+    <file path="/pass_status.html.erb" changelist="5ffcb860-5c3b-42c9-8ee0-d001c63ab27d" time="1453996626331" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -33,34 +57,88 @@
       <file leaf-file-name="commands_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/commands_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="6" selection-start="183" selection-end="183" vertical-scroll-proportion="0.0">
+            <state line="175" column="0" selection-start="4515" selection-end="4515" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/commands/index.html.erb">
+      <file leaf-file-name="pass_restart.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/commands/pass_restart.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="26" column="50" selection-start="2346" selection-end="2346" vertical-scroll-proportion="-16.25">
+            <state line="10" column="57" selection-start="415" selection-end="415" vertical-scroll-proportion="-6.25">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="application.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
+      <file leaf-file-name="pass_status.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/commands/pass_status.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="24" column="23" selection-start="825" selection-end="825" vertical-scroll-proportion="0.0">
+            <state line="4" column="22" selection-start="170" selection-end="170" vertical-scroll-proportion="-2.5">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="routes.rb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <file leaf-file-name="sys_ip.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/commands/sys_ip.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="29" selection-start="335" selection-end="357" vertical-scroll-proportion="0.25096524">
+            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="cpu_util_show.html.erb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/commands/cpu_util_show.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="1" column="61" selection-start="157" selection-end="157" vertical-scroll-proportion="0.020689655">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="stop_redis.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/commands/stop_redis.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="111" selection-start="263" selection-end="263" vertical-scroll-proportion="-2.5">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="start_redis.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/commands/start_redis.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="83" selection-start="233" selection-end="233" vertical-scroll-proportion="-2.5">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="redis_status.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/commands/redis_status.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="22" selection-start="174" selection-end="174" vertical-scroll-proportion="-2.5">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="solr_status.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/commands/solr_status.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="4" column="79" selection-start="231" selection-end="231" vertical-scroll-proportion="-2.5">
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="restart_solr.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/commands/restart_solr.html.erb">
+          <provider selected="true" editor-type-id="text-editor">
+            <state line="9" column="26" selection-start="345" selection-end="345" vertical-scroll-proportion="-5.625">
               <folding />
             </state>
           </provider>
@@ -76,13 +154,22 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/commands.css.scss" />
-        <option value="$PROJECT_DIR$/Gemfile" />
-        <option value="$PROJECT_DIR$/app/assets/javascripts/application.js" />
-        <option value="$PROJECT_DIR$/app/assets/stylesheets/application.css" />
-        <option value="$PROJECT_DIR$/config/routes.rb" />
-        <option value="$PROJECT_DIR$/app/controllers/commands_controller.rb" />
-        <option value="$PROJECT_DIR$/app/views/commands/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/commands/stop_solr.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/commands/sys_ip.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/commands/stop_sidekiq.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/commands/nginx_status.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/commands/stop_nginx.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/commands/start_nginx.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/commands/restart_nginx.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/commands/start_solr.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/commands/restart_solr.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/commands/solr_status.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/commands/redis_status.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/commands/start_redis.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/commands/stop_redis.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/commands/pass_status.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/commands/pass_restart.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/commands/cpu_util_show.html.erb" />
       </list>
     </option>
   </component>
@@ -106,7 +193,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator proportions="" version="1" splitterProportion="0.5">
+    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -117,17 +204,119 @@
       <autoscrollFromSource />
       <sortByType />
     </navigator>
-    <panes />
+    <panes>
+      <pane id="Scope" />
+      <pane id="RailsProjectView" />
+      <pane id="ProjectPane">
+        <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ruby_gem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ruby_gem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ruby_gem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ruby_gem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ruby_gem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="log" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ruby_gem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ruby_gem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="tasks" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ruby_gem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ruby_gem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="lib" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ruby_gem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ruby_gem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ruby_gem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="ruby_gem" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="app" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="controllers" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+        </subPane>
+      </pane>
+    </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="options.splitter.main.proportions" value="0.3" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="recentsLimit" value="5" />
     <property name="options.lastSelected" value="project.scopes" />
+    <property name="recentsLimit" value="5" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/ruby_crawler" />
-    <property name="GoToClass.includeJavaFiles" value="false" />
-    <property name="options.searchVisible" value="true" />
     <property name="options.splitter.details.proportions" value="0.2" />
+    <property name="options.searchVisible" value="true" />
+    <property name="GoToClass.includeJavaFiles" value="false" />
+    <property name="Ruby.ViewRefParam.DefaultExtension" value="html.erb" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -240,6 +429,13 @@
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="TEST_TEST_TYPE" VALUE="TEST_SCRIPT" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="DRB" VALUE="false" />
       <RTEST_RUN_CONFIG_SETTINGS_ID NAME="RUNNER_OPTIONS" VALUE="" />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugSession" factoryName="Remote" singleton="true">
+      <JSRemoteDebuggerConfigurationSettings>
+        <option name="engineId" value="embedded" />
+        <option name="fileUrl" />
+      </JSRemoteDebuggerConfigurationSettings>
       <method />
     </configuration>
     <configuration default="false" name="test" type="RakeRunConfigurationType" factoryName="Rake">
@@ -361,17 +557,17 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="61" y="24" width="1379" height="876" extended-state="6" />
+    <frame x="61" y="24" width="1379" height="876" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24981189" sideWeight="0.6706667" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25432655" sideWeight="0.6706667" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.3295711" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32904884" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
@@ -437,107 +633,119 @@
     <option name="FILE_HISTORY_SPLITTER_PROPORTION" value="0.6" />
   </component>
   <component name="XDebuggerManager">
-    <breakpoint-manager />
+    <breakpoint-manager>
+      <option name="time" value="4" />
+    </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
+    <entry file="file://$PROJECT_DIR$/app/views/commands/stop_sidekiq.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="23" selection-start="825" selection-end="825" vertical-scroll-proportion="0.0">
+        <state line="3" column="46" selection-start="135" selection-end="135" vertical-scroll-proportion="-1.875">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/commands/nginx_status.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="21" selection-start="103" selection-end="103" vertical-scroll-proportion="0.0">
+        <state line="6" column="90" selection-start="343" selection-end="343" vertical-scroll-proportion="-3.75">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/commands_controller.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/commands/stop_nginx.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="2" column="22" selection-start="83" selection-end="83" vertical-scroll-proportion="0.0">
+        <state line="9" column="23" selection-start="399" selection-end="399" vertical-scroll-proportion="-5.625">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/commands/index.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/commands/restart_nginx.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="33" column="59" selection-start="2642" selection-end="2642" vertical-scroll-proportion="0.0">
+        <state line="3" column="25" selection-start="114" selection-end="114" vertical-scroll-proportion="-1.875">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
+    <entry file="file://$PROJECT_DIR$/app/views/commands/start_nginx.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="23" selection-start="825" selection-end="825" vertical-scroll-proportion="0.0">
+        <state line="9" column="45" selection-start="397" selection-end="397" vertical-scroll-proportion="-5.625">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+    <entry file="file://$PROJECT_DIR$/app/views/commands/start_solr.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="22" selection-start="221" selection-end="221" vertical-scroll-proportion="-3.125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/commands/restart_solr.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="26" selection-start="345" selection-end="345" vertical-scroll-proportion="-5.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/commands/redis_status.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="22" selection-start="174" selection-end="174" vertical-scroll-proportion="-2.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/commands/solr_status.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="79" selection-start="231" selection-end="231" vertical-scroll-proportion="-2.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/commands/start_redis.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="83" selection-start="233" selection-end="233" vertical-scroll-proportion="-2.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/commands/stop_redis.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="111" selection-start="263" selection-end="263" vertical-scroll-proportion="-2.5">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/commands/sys_ip.html.erb">
       <provider selected="true" editor-type-id="text-editor">
         <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/commands.js.coffee">
+    <entry file="file://$PROJECT_DIR$/app/views/commands/pass_status.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/commands.css.scss">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="0" selection-start="210" selection-end="210" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Gemfile">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="27" column="44" selection-start="1081" selection-end="1081" vertical-scroll-proportion="0.0">
+        <state line="4" column="22" selection-start="170" selection-end="170" vertical-scroll-proportion="-2.5">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/application.js">
+    <entry file="file://$PROJECT_DIR$/app/views/commands/pass_restart.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="17" column="8" selection-start="693" selection-end="693" vertical-scroll-proportion="0.3464674" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/css/bootstrap-theme.min.css.map">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="35" selection-start="35" selection-end="35" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/javascripts/js/bootstrap.min.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/assets/stylesheets/application.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="24" column="23" selection-start="825" selection-end="825" vertical-scroll-proportion="0.0">
+        <state line="10" column="57" selection-start="415" selection-end="415" vertical-scroll-proportion="-6.25">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/controllers/commands_controller.rb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="6" selection-start="183" selection-end="183" vertical-scroll-proportion="0.0">
+        <state line="175" column="0" selection-start="4515" selection-end="4515" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/commands/index.html.erb">
+    <entry file="file://$PROJECT_DIR$/app/views/commands/cpu_util_show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="26" column="50" selection-start="2346" selection-end="2346" vertical-scroll-proportion="-16.25">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/config/routes.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="29" selection-start="335" selection-end="357" vertical-scroll-proportion="0.25096524">
+        <state line="1" column="61" selection-start="157" selection-end="157" vertical-scroll-proportion="0.020689655">
           <folding />
         </state>
       </provider>

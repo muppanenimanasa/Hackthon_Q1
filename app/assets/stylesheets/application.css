@@ -38,3 +38,7 @@
 }
 
 .btns {  margin-bottom: 7;}
+
+.foo {
+    outline: 1px solid orange;
+}

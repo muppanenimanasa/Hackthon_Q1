@@ -7,11 +7,22 @@ Rails.application.routes.draw do
   get "commands/sidekiq_status"
   get "commands/stop_sidekiq"
   get "commands/start_sidekiq"
-  get "commands/restart_sidekiq"
   get "commands/nginx_status"
   get "commands/stop_nginx"
   get "commands/start_nginx"
   get "commands/restart_nginx"
+  get "commands/solr_status"
+  get "commands/stop_solr"
+  get "commands/start_solr"
+  get "commands/restart_solr"
+  get "commands/redis_status"
+  get "commands/stop_redis"
+  get "commands/start_redis"
+  get "commands/redis_status"
+  get "commands/cpu_util_show"
+  get "commands/sys_ip"
+  get "commands/pass_status"
+  get "commands/pass_restart"
 
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".

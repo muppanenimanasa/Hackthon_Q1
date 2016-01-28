@@ -8,57 +8,202 @@ class CommandsController < ApplicationController
   end
 
   def sidekiq_status
-
+    cmd="ps aux | grep '[s]idekiq'"
+    Open3.popen3(cmd) do |stdin, stdout, stderr, wait_thr|
+      @sidekiq_status = stdout.read.to_s
+      p @sidekiq_status
+      if @sidekiq_status.blank?
+        @status = "No Process running"
+      else
+        @status = @sidekiq_status
+      end
+      # render commands_sidekiq_status_url, :notice => status
+    end
+    @status
   end
 
   def stop_sidekiq
-    cmd = "cd #{Rails.root} && bundle exec sidekiq stop"
+    cmd = "cd #{Rails.root} && ps -ef | grep sidekiq | grep -v grep | awk '{print $2}' | xargs kill -9"
     sleep 2
     Open3.popen3(cmd) do |stdin, stdout, stderr, wait_thr|
-      flash[:notice] = stdout.read.to_s
-      flash[:notice] = stderr.read.to_s
+      @status = stdout.read.to_s
     end
-    print flash[:notice]
+    redirect_to(commands_sidekiq_status_url)
   end
 
 
   def start_sidekiq
-    cmd = "cd #{Rails.root} && bundle exec sidekiq start"
+    cmd = "cd #{Rails.root} && bundle exec sidekiq -d -L #{Rails.root}/log/sidekiq_development.log"
     sleep 2
     Open3.popen3(cmd) do |stdin, stdout, stderr, wait_thr|
-      flash[:notice] = stdout.read.to_s
-      flash[:notice] = stderr.read.to_s
+      while line = stdout.gets
+        puts line
+      end
+      @status=stdout.gets.to_s
+      # redirect_to root_url, :notice=>status
     end
-    print flash[:notice]
-  end
-
-  def restart_sidekiq
-
+    #p @status
+    redirect_to(commands_sidekiq_status_url)
   end
 
   def nginx_status
-
+    cmd="cd #{Rails.root} && sudo service nginx status"
+    Open3.popen3(cmd) do |stdin, stdout, stderr, wait_thr|
+      @status = stdout.read.to_s
+      # redirect_to root_url, :notice=>status
+    end
+    @status
   end
+
 
   def stop_nginx
     cmd = "cd #{Rails.root} && sudo service nginx stop"
     sleep 2
-    cmd = "cd #{Rails.root} && sudo service nginx start"
-    sleep 2
     Open3.popen3(cmd) do |stdin, stdout, stderr, wait_thr|
-      flash[:notice] = stdout.read.to_s
-      flash[:notice] = stderr.read.to_s
+      @status = stdout.read.to_s
+      #  redirect_to root_url, :notice=>status
     end
+    @status
   end
 
   def start_nginx
-
+    cmd="cd #{Rails.root} && sudo service nginx start"
+    sleep 2
+    Open3.popen3(cmd) do |stdin, stdout, stderr, wait_thr|
+      sleep 2
+      @status = stdout.read.to_s
+      # redirect_to root_url, :notice=>status
+    end
+    @status
   end
 
   def restart_nginx
-
+    cmd="cd #{Rails.root} && sudo service nginx restart"
+    Open3.popen3(cmd) do |stdin, stdout, stderr, wait_thr|
+      sleep 2
+      @status = stdout.read.to_s
+      #redirect_to root_url, :notice=>status
+    end
+    @status
   end
 
 
+  def start_solr
+    cmd = "cd #{Rails.root} &&  bundle exec rake sunspot:solr:start"
+    sleep 2
+    Open3.popen3(cmd) do |stdin, stdout, stderr, wait_thr|
+      sleep 2
+      @status = stdout.read.to_s
+      #redirect_to root_url, :notice=>status
+    end
+    redirect_to(commands_solr_status_url)
+  end
+
+  def stop_solr
+    cmd = "ps -ef | grep solr | grep -v grep | awk '{print $2}' | xargs kill -9"
+    sleep 2
+    Open3.popen3(cmd) do |stdin, stdout, stderr, wait_thr|
+      sleep 2
+      @status = stdout.read.to_s
+      #  redirect_to root_url, :notice=>status
+    end
+    redirect_to(commands_solr_status_url)
+  end
+
+  def restart_solr
+    cmd = "cd #{Rails.root} &&  bundle exec rake sunspot:solr:reindex"
+    sleep 2
+    Open3.popen3(cmd) do |stdin, stdout, stderr, wait_thr|
+      sleep 2
+      @status = stdout.read.to_s
+      # redirect_to root_url, :notice=>status
+    end
+    redirect_to(commands_solr_status_url)
+  end
+
+  def solr_status
+    cmd="ps -ef | grep solr "
+    sleep 1
+    Open3.popen3(cmd) do |stdin, stdout, stderr, wait_thr|
+      sleep 2
+      @status_out = stdout.read.to_s
+      p @status_out
+      if @status_out.blank?
+        @status = "No Process running"
+      else
+        @status = @status_out
+      end
+      #redirect_to root_url, :notice=>status
+    end
+    @status
+  end
+
+  def redis_status
+    cmd="cd #{Rails.root} &&  ps -ef | grep redis"
+    Open3.popen3(cmd) do |stdin, stdout, stderr, wait_thr|
+      @status = stdout.read.to_s
+      # redirect_to root_url, :notice=>status
+      if @status.include?(":6379")
+        @status = "Redis Server is running"
+      else
+        @status = "Redis server has stopped, Go and start the Redis-Server"
+      end
+    end
+    @status
+  end
+
+  def start_redis
+    cmd="cd #{Rails.root} && redis-server"
+    Open3.popen3(cmd) do |stdin, stdout, stderr, wait_thr|
+      sleep 2
+      @status = stdout.read.to_s
+      # redirect_to root_url, :notice=>status
+    end
+    redirected_to(commands_redis_status_url)
+  end
+
+  def stop_redis
+    cmd='redis-cli shutdown'
+    sleep 1
+    Open3.popen3(cmd) do |stdin, stdout, stderr, wait_thr|
+      sleep 2
+      @status = stdout.read.to_s
+      #  redirect_to root_url, :notice=>status
+    end
+    redirect_to(commands_redis_status_url)
+  end
+
+  def cpu_util_show
+    cmd= "cd #{Rails.root} && df -h"
+    Open3.popen3(cmd) do |stdin, stdout, stderr, wait_thr|
+      @status = stdout.read.to_s
+      # redirect_to root_url, :notice=>status
+    end
+    @status
+  end
+
+  def sys_ip
+    cmd="cd #{Rails.root} && ip route get 8.8.8.8 | awk '{print $NF; exit}'"
+    Open3.popen3(cmd) do |stdin, stdout, stderr, wait_thr|
+      @ip = stdout.read.to_s
+    end
+    @ip
+  end
+
+  def pass_status
+    cmd="cd #{Rails.root} && ps -ef | grep passenger"
+    Open3.popen3(cmd) do |stdin, stdout, stderr, wait_thr|
+      @status = stdout.read.to_s
+    end
+    @status
+  end
+
+  def pass_restart
+    cmd="cd #{Rails.root} && touch tmp/restart.txt"
+    Open3.popen3(cmd) do |stdin, stdout, stderr, wait_thr|
+      @status = stdout.read.to_s
+    end
+    @status
+  end
 
 end
