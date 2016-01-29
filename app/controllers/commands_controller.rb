@@ -13,7 +13,7 @@ class CommandsController < ApplicationController
       @sidekiq_status = stdout.read.to_s
       p @sidekiq_status
       if @sidekiq_status.blank?
-        @status = "No Process running"
+        @status = "No Sidekiq Process running"
       else
         @status = @sidekiq_status
       end
@@ -129,7 +129,7 @@ class CommandsController < ApplicationController
       @status_out = stdout.read.to_s
       p @status_out
       if @status_out.blank?
-        @status = "No Process running"
+        @status = "No  Solr Process running"
       else
         @status = @status_out
       end
@@ -159,7 +159,7 @@ class CommandsController < ApplicationController
       @status = stdout.read.to_s
       # redirect_to root_url, :notice=>status
     end
-    redirected_to(commands_redis_status_url)
+    redirect_to(commands_redis_status_url)
   end
 
   def stop_redis
@@ -173,8 +173,17 @@ class CommandsController < ApplicationController
     redirect_to(commands_redis_status_url)
   end
 
-  def cpu_util_show
-    cmd= "cd #{Rails.root} && df -h"
+  def cpu_consumed_mem
+    cmd= "free | grep Mem | awk '{print $3/$2 * 100.0}'"
+    Open3.popen3(cmd) do |stdin, stdout, stderr, wait_thr|
+      @status = stdout.read.to_s
+      # redirect_to root_url, :notice=>status
+    end
+    @status
+  end
+
+  def free_memory
+    cmd= "free | grep Mem | awk '{print $4/$2 * 100.0}'"
     Open3.popen3(cmd) do |stdin, stdout, stderr, wait_thr|
       @status = stdout.read.to_s
       # redirect_to root_url, :notice=>status

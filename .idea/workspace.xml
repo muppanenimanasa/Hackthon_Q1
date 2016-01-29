@@ -6,11 +6,11 @@
     <ignored path=".idea/workspace.xml" />
     <file path="$USER_HOME$/Downloads/ruby_crawler/lib/tasks/sidekiq.rake" changelist="5ffcb860-5c3b-42c9-8ee0-d001c63ab27d" time="1453872010121" ignored="false" />
     <file path="/sidekiq.rake" changelist="5ffcb860-5c3b-42c9-8ee0-d001c63ab27d" time="1453872010121" ignored="false" />
-    <file path="/routes.rb" changelist="5ffcb860-5c3b-42c9-8ee0-d001c63ab27d" time="1453994384268" ignored="false" />
-    <file path="/commands_controller.rb" changelist="5ffcb860-5c3b-42c9-8ee0-d001c63ab27d" time="1453994058026" ignored="false" />
+    <file path="/routes.rb" changelist="5ffcb860-5c3b-42c9-8ee0-d001c63ab27d" time="1454038801748" ignored="false" />
+    <file path="/commands_controller.rb" changelist="5ffcb860-5c3b-42c9-8ee0-d001c63ab27d" time="1454038694787" ignored="false" />
     <file path="/*.regexp" changelist="5ffcb860-5c3b-42c9-8ee0-d001c63ab27d" time="1453984722699" ignored="false" />
     <file path="/application.css" changelist="5ffcb860-5c3b-42c9-8ee0-d001c63ab27d" time="1453878379928" ignored="false" />
-    <file path="/index.html.erb" changelist="5ffcb860-5c3b-42c9-8ee0-d001c63ab27d" time="1453986451483" ignored="false" />
+    <file path="/index.html.erb" changelist="5ffcb860-5c3b-42c9-8ee0-d001c63ab27d" time="1454043900107" ignored="false" />
     <file path="$USER_HOME$/Downloads/ruby_crawler/config/initializers/task_scheduler.rb" changelist="5ffcb860-5c3b-42c9-8ee0-d001c63ab27d" time="1453883623428" ignored="false" />
     <file path="/Dummy.txt" changelist="5ffcb860-5c3b-42c9-8ee0-d001c63ab27d" time="1453958423358" ignored="false" />
     <file path="$USER_HOME$/Downloads/ruby_crawler/config/deploy.rb" changelist="5ffcb860-5c3b-42c9-8ee0-d001c63ab27d" time="1453959169192" ignored="false" />
@@ -28,7 +28,7 @@
     <file path="/stop_solr.html.erb" changelist="5ffcb860-5c3b-42c9-8ee0-d001c63ab27d" time="1453996097290" ignored="false" />
     <file path="/redis_status.html.erb" changelist="5ffcb860-5c3b-42c9-8ee0-d001c63ab27d" time="1453996494274" ignored="false" />
     <file path="/stop_nginx.html.erb" changelist="5ffcb860-5c3b-42c9-8ee0-d001c63ab27d" time="1453996304539" ignored="false" />
-    <file path="/start_nginx.html.erb" changelist="5ffcb860-5c3b-42c9-8ee0-d001c63ab27d" time="1453996331463" ignored="false" />
+    <file path="/start_nginx.html.erb" changelist="5ffcb860-5c3b-42c9-8ee0-d001c63ab27d" time="1453998365416" ignored="false" />
     <file path="/nginx_status.html.erb" changelist="5ffcb860-5c3b-42c9-8ee0-d001c63ab27d" time="1453996247023" ignored="false" />
     <file path="/pass_restart.html.erb" changelist="5ffcb860-5c3b-42c9-8ee0-d001c63ab27d" time="1453996647112" ignored="false" />
     <file path="/stop_sidekiq.html.erb" changelist="5ffcb860-5c3b-42c9-8ee0-d001c63ab27d" time="1453996206779" ignored="false" />
@@ -38,6 +38,8 @@
     <file path="/solr_status.html.erb" changelist="5ffcb860-5c3b-42c9-8ee0-d001c63ab27d" time="1453996455308" ignored="false" />
     <file path="/stop_redis.html.erb" changelist="5ffcb860-5c3b-42c9-8ee0-d001c63ab27d" time="1453996541277" ignored="false" />
     <file path="/pass_status.html.erb" changelist="5ffcb860-5c3b-42c9-8ee0-d001c63ab27d" time="1453996626331" ignored="false" />
+    <file path="/cpu_consumed_mem.html.erb" changelist="5ffcb860-5c3b-42c9-8ee0-d001c63ab27d" time="1454043941815" ignored="false" />
+    <file path="/free_memory.html.erb" changelist="5ffcb860-5c3b-42c9-8ee0-d001c63ab27d" time="1454043935670" ignored="false" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -57,16 +59,7 @@
       <file leaf-file-name="commands_controller.rb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/controllers/commands_controller.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="175" column="0" selection-start="4515" selection-end="4515" vertical-scroll-proportion="0.0">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pass_restart.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/commands/pass_restart.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="10" column="57" selection-start="415" selection-end="415" vertical-scroll-proportion="-6.25">
+            <state line="175" column="0" selection-start="4527" selection-end="4527" vertical-scroll-proportion="0.0">
               <folding />
             </state>
           </provider>
@@ -75,25 +68,33 @@
       <file leaf-file-name="pass_status.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/commands/pass_status.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="22" selection-start="170" selection-end="170" vertical-scroll-proportion="-2.5">
+            <state line="5" column="5" selection-start="265" selection-end="265" vertical-scroll-proportion="-3.125">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="sys_ip.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/commands/sys_ip.html.erb">
+      <file leaf-file-name="index.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/commands/index.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0">
-              <folding />
+            <state line="6" column="55" selection-start="235" selection-end="235" vertical-scroll-proportion="-3.75">
+              <folding>
+                <element signature="n#style#0;n#li#0;n#ul#0;n#h2#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#1;n#ul#0;n#h2#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#2;n#ul#0;n#h2#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#3;n#ul#0;n#h2#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#4;n#ul#0;n#h2#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#5;n#ul#0;n#h2#1;n#div#0;n#!!top" expanded="true" />
+                <element signature="n#style#0;n#li#6;n#ul#0;n#h2#1;n#div#0;n#!!top" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="cpu_util_show.html.erb" pinned="false" current="true" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/app/views/commands/cpu_util_show.html.erb">
+      <file leaf-file-name="free_memory.html.erb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/app/views/commands/free_memory.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="1" column="61" selection-start="157" selection-end="157" vertical-scroll-proportion="0.020689655">
+            <state line="2" column="29" selection-start="170" selection-end="170" vertical-scroll-proportion="-1.25">
               <folding />
             </state>
           </provider>
@@ -102,43 +103,25 @@
       <file leaf-file-name="stop_redis.html.erb" pinned="false" current="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/app/views/commands/stop_redis.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="111" selection-start="263" selection-end="263" vertical-scroll-proportion="-2.5">
+            <state line="9" column="53" selection-start="373" selection-end="373" vertical-scroll-proportion="-5.625">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="start_redis.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/commands/start_redis.html.erb">
+      <file leaf-file-name="routes.rb" pinned="false" current="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/config/routes.rb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="83" selection-start="233" selection-end="233" vertical-scroll-proportion="-2.5">
+            <state line="20" column="0" selection-start="527" selection-end="527" vertical-scroll-proportion="-8.67742">
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="redis_status.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/commands/redis_status.html.erb">
+      <file leaf-file-name="cpu_consumed_mem.html.erb" pinned="false" current="true" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/app/views/commands/cpu_consumed_mem.html.erb">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="22" selection-start="174" selection-end="174" vertical-scroll-proportion="-2.5">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="solr_status.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/commands/solr_status.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="4" column="79" selection-start="231" selection-end="231" vertical-scroll-proportion="-2.5">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="restart_solr.html.erb" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/app/views/commands/restart_solr.html.erb">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="9" column="26" selection-start="345" selection-end="345" vertical-scroll-proportion="-5.625">
+            <state line="3" column="29" selection-start="166" selection-end="166" vertical-scroll-proportion="0.062068965">
               <folding />
             </state>
           </provider>
@@ -154,12 +137,6 @@
   <component name="IdeDocumentHistory">
     <option name="changedFiles">
       <list>
-        <option value="$PROJECT_DIR$/app/views/commands/stop_solr.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/commands/sys_ip.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/commands/stop_sidekiq.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/commands/nginx_status.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/commands/stop_nginx.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/commands/start_nginx.html.erb" />
         <option value="$PROJECT_DIR$/app/views/commands/restart_nginx.html.erb" />
         <option value="$PROJECT_DIR$/app/views/commands/start_solr.html.erb" />
         <option value="$PROJECT_DIR$/app/views/commands/restart_solr.html.erb" />
@@ -167,17 +144,23 @@
         <option value="$PROJECT_DIR$/app/views/commands/redis_status.html.erb" />
         <option value="$PROJECT_DIR$/app/views/commands/start_redis.html.erb" />
         <option value="$PROJECT_DIR$/app/views/commands/stop_redis.html.erb" />
-        <option value="$PROJECT_DIR$/app/views/commands/pass_status.html.erb" />
         <option value="$PROJECT_DIR$/app/views/commands/pass_restart.html.erb" />
         <option value="$PROJECT_DIR$/app/views/commands/cpu_util_show.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/commands/start_nginx.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/commands/pass_status.html.erb" />
+        <option value="$PROJECT_DIR$/config/routes.rb" />
+        <option value="$PROJECT_DIR$/app/controllers/commands_controller.rb" />
+        <option value="$PROJECT_DIR$/app/views/commands/index.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/commands/free_memory.html.erb" />
+        <option value="$PROJECT_DIR$/app/views/commands/cpu_consumed_mem.html.erb" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="61" />
-    <option name="y" value="24" />
+    <option name="y" value="52" />
     <option name="width" value="1379" />
-    <option name="height" value="876" />
+    <option name="height" value="848" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -557,7 +540,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="61" y="24" width="1379" height="876" extended-state="0" />
+    <frame x="61" y="52" width="1379" height="848" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
@@ -638,79 +621,26 @@
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/app/views/commands/stop_sidekiq.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="46" selection-start="135" selection-end="135" vertical-scroll-proportion="-1.875">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/commands/nginx_status.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="6" column="90" selection-start="343" selection-end="343" vertical-scroll-proportion="-3.75">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/commands/stop_nginx.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="23" selection-start="399" selection-end="399" vertical-scroll-proportion="-5.625">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/commands/restart_nginx.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="3" column="25" selection-start="114" selection-end="114" vertical-scroll-proportion="-1.875">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/commands/start_nginx.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="45" selection-start="397" selection-end="397" vertical-scroll-proportion="-5.625">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/commands/start_solr.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="5" column="22" selection-start="221" selection-end="221" vertical-scroll-proportion="-3.125">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/commands/restart_solr.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="9" column="26" selection-start="345" selection-end="345" vertical-scroll-proportion="-5.625">
-          <folding />
-        </state>
+        <state line="9" column="26" selection-start="345" selection-end="345" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/commands/redis_status.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="22" selection-start="174" selection-end="174" vertical-scroll-proportion="-2.5">
-          <folding />
-        </state>
+        <state line="4" column="22" selection-start="174" selection-end="174" vertical-scroll-proportion="0.0" />
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/commands/solr_status.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="79" selection-start="231" selection-end="231" vertical-scroll-proportion="-2.5">
+        <state line="4" column="79" selection-start="231" selection-end="231" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/commands/start_redis.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="83" selection-start="233" selection-end="233" vertical-scroll-proportion="-2.5">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/commands/stop_redis.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="111" selection-start="263" selection-end="263" vertical-scroll-proportion="-2.5">
+        <state line="4" column="83" selection-start="233" selection-end="233" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
@@ -722,30 +652,91 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app/views/commands/pass_status.html.erb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="4" column="22" selection-start="170" selection-end="170" vertical-scroll-proportion="-2.5">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/app/views/commands/pass_restart.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="10" column="57" selection-start="415" selection-end="415" vertical-scroll-proportion="-6.25">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/app/controllers/commands_controller.rb">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="175" column="0" selection-start="4515" selection-end="4515" vertical-scroll-proportion="0.0">
+        <state line="10" column="57" selection-start="415" selection-end="415" vertical-scroll-proportion="0.0">
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/app/views/commands/cpu_util_show.html.erb">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="1" column="61" selection-start="157" selection-end="157" vertical-scroll-proportion="0.020689655">
+        <state line="1" column="61" selection-start="157" selection-end="157" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/commands/sidekiq_status.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0">
+          <folding>
+            <marker date="1453996162159" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1453996162159" expanded="true" signature="-1:-1" placeholder="..." />
+            <marker date="1453996162159" expanded="true" signature="-1:-1" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/commands/start_nginx.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="4" column="46" selection-start="218" selection-end="218" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/commands/stop_redis.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="9" column="53" selection-start="373" selection-end="373" vertical-scroll-proportion="-5.625">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/config/routes.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="20" column="0" selection-start="527" selection-end="527" vertical-scroll-proportion="-8.67742">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/commands/pass_status.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="5" column="5" selection-start="265" selection-end="265" vertical-scroll-proportion="-3.125">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/commands/index.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="6" column="55" selection-start="235" selection-end="235" vertical-scroll-proportion="-3.75">
+          <folding>
+            <element signature="n#style#0;n#li#0;n#ul#0;n#h2#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#1;n#ul#0;n#h2#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#2;n#ul#0;n#h2#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#3;n#ul#0;n#h2#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#4;n#ul#0;n#h2#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#5;n#ul#0;n#h2#1;n#div#0;n#!!top" expanded="true" />
+            <element signature="n#style#0;n#li#6;n#ul#0;n#h2#1;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/commands/free_memory.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="2" column="29" selection-start="170" selection-end="170" vertical-scroll-proportion="-1.25">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/controllers/commands_controller.rb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="175" column="0" selection-start="4527" selection-end="4527" vertical-scroll-proportion="0.0">
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/views/commands/cpu_consumed_mem.html.erb">
+      <provider selected="true" editor-type-id="text-editor">
+        <state line="3" column="29" selection-start="166" selection-end="166" vertical-scroll-proportion="0.062068965">
           <folding />
         </state>
       </provider>
